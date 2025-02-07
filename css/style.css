@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    float:right;
+    display: flex;
+    color:#f0f3; 
+    margin-right: 10%;  
+    margin-top: -23px;
+}
+ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: rgb(167, 224, 10);
+}
+
+.logo{
+    margin-left: 5%;
+    font-size: 33px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.R-stor span{
+    color: red;
+}
+.text p{
+    text-align: center;
+    margin-top: 20px;
+}
+header{
+    background-color:black;
+    height: 90px;
+    margin-top: 15px;
+}
+.nv{
+    margin-top: -50px;
+}
+h2{
+    text-align: center;
+    margin-top: 15%;
+}
+.search{
+    margin-left: 35%;
+}
+.search:hover{
+    color: orangered;
+}
+.search input{
+    padding: 10px;
+    border-radius: 13px;
+    outline: none;
+    border-style: none;
+}
+
+.sec1 {
+    background-image: url(../img/ART1.jpeg);
+    background-size: cover;
+    padding: 12%;
+    text-align: center;
+    height: 300px;
+    color: #fff;
+
+}
+
+.text{
+    letter-spacing: 0.2em;
+
+}
+main {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+h1{
+    text-transform: uppercase;
+}
+
+
+.cta-button {
+    background: #32f86d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.gallery, .artists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.artwork, .artist {
+    margin: 15px;
+    text-align: center;
+}
+
+.artwork img, .artist img {
+    max-width: 600px;
+    height: auto;
+    transition: transform 0.2s;
+    border-radius: 10px;
+    background-color: rgba(0.5, 0, 0, 0.5);
+}
+
+.artwork img:hover, .artist img:hover {
+    transform: scale(1.05);
+}
+
+.form-group label{
+    font-weight: bold;
+}
+
+label{
+    float: left;
+}
+.btn-primary{
+    width: 100%;
+    padding: 10px;
+}
+
+
+
